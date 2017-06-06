@@ -37,5 +37,13 @@
     "url-loader": "^0.5.7",
     "webpack": "^2.6.0",
     "whatwg-fetch": "^1.0.0"
-  }
+  },
+  "devDependencies": {
+    "postcss-normalize": "^3.0.0",
+    "tachyons": "4.7.4"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions"
+  ]
 }
