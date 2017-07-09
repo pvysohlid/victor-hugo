@@ -14,7 +14,7 @@
   "license": "MIT",
   "dependencies": {
     "babel-eslint": "^7.2.3",
-    "babel-loader": "^7.1.0",
+    "babel-loader": "^7.1.1",
     "babel-plugin-syntax-object-rest-spread": "^6.13.0",
     "babel-plugin-transform-class-properties": "^6.10.2",
     "babel-plugin-transform-object-assign": "^6.8.0",
@@ -23,8 +23,8 @@
     "babel-register": "^6.11.6",
     "browser-sync": "^2.13.0",
     "css-loader": "^0.28.2",
-    "eslint": "^4.1.0",
-    "eslint-plugin-import": "^2.6.0",
+    "eslint": "^4.1.1",
+    "eslint-plugin-import": "^2.7.0",
     "exports-loader": "^0.6.3",
     "file-loader": "^0.11.1",
     "gulp": "^3.9.1",
@@ -32,10 +32,10 @@
     "gulp-postcss": "^7.0.0",
     "gulp-util": "^3.0.7",
     "imports-loader": "^0.7.1",
-    "postcss-cssnext": "^2.7.0",
+    "postcss-cssnext": "^3.0.0",
     "postcss-import": "^10.0.0",
     "url-loader": "^0.5.9",
-    "webpack": "^3.0.0",
+    "webpack": "^3.1.0",
     "whatwg-fetch": "^2.0.3"
   },
   "devDependencies": {
