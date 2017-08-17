@@ -21,26 +21,26 @@
     "babel-plugin-transform-object-rest-spread": "^6.8.0",
     "babel-preset-es2015": "^6.9.0",
     "babel-register": "^6.11.6",
-    "browser-sync": "^2.13.0",
+    "browser-sync": "^2.18.13",
     "css-loader": "^0.28.2",
-    "eslint": "^4.1.1",
+    "eslint": "^4.4.1",
     "eslint-plugin-import": "^2.7.0",
     "exports-loader": "^0.6.3",
     "file-loader": "^0.11.1",
     "gulp": "^3.9.1",
-    "gulp-babel": "^6.1.2",
+    "gulp-babel": "^7.0.0",
     "gulp-postcss": "^7.0.0",
     "gulp-util": "^3.0.7",
     "imports-loader": "^0.7.1",
-    "postcss-cssnext": "^3.0.0",
+    "postcss-cssnext": "^3.0.2",
     "postcss-import": "^10.0.0",
     "url-loader": "^0.5.9",
-    "webpack": "^3.1.0",
+    "webpack": "^3.5.4",
     "whatwg-fetch": "^2.0.3"
   },
   "devDependencies": {
     "postcss-normalize": "^4.0.0",
-    "tachyons": "4.7.4"
+    "tachyons": "4.8.0"
   },
   "browserslist": [
     "> 1%",
