@@ -11,15 +11,7 @@ This project is released under the [MIT license](LICENSE). Please make sure you 
 
 ## Usage
 
-Be sure that you have the latest node, npm and [Hugo](https://gohugo.io/) installed. If you need to install hugo on OSX, run:
-
-```bash
-brew install hugo
-```
-
-If you don't use OSX or don't use homebrew, follow the instructions for installation here instead:
-
-http://gohugo.io/overview/installing/
+Be sure that you have the latest node and npm installed.
 
 Next, clone this repository and run:
 
@@ -74,6 +66,20 @@ You can use ES6 and use both relative imports or import libraries from npm.
 
 Any CSS file directly under the `src/css/` folder will get compiled with [PostCSS Next](http://cssnext.io/)
 to `/dist/css/{filename}.css`. Import statements will be resolved as part of the build
+
+## Environment variables
+
+Two seperate the development and production *- aka build -* stages, all gulp
+tasks run with a node environment variable named either `development` or 
+`production`.
+
+You can access the environment variable inside the theme files with 
+`getenv "NODE_ENV"`. See the following example for a conditional statement:
+
+    {{ if eq (getenv "NODE_ENV") "development" }}You're in development!{{ end }}
+
+All tasks starting with *build* set the environment variable to `production` - 
+the other will set it to `development`.
 
 ## Deploying to netlify
 
